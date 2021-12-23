@@ -1,0 +1,222 @@
+[
+    {
+        "id": 19,
+        "planets": [
+            "Wellon"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 20,
+        "planets": [
+            "Vefut II"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 21,
+        "planets": [
+            "Thibah"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 23,
+        "planets": [
+            "Saudor"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 24,
+        "planets": [
+            "Mehar Xull"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 25,
+        "planets": [
+            "Quann"
+        ],
+        "anomalies": [
+            "Wormhole B"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 26,
+        "planets": [
+            "Lodor"
+        ],
+        "anomalies": [
+            "Wormhole A"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 27,
+        "planets": [
+            "New Albion",
+            "Starpoint"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 28,
+        "planets": [
+            "Tequ'Ran",
+            "Torkan"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 29,
+        "planets": [
+            "Qucen'n",
+            "Rarron"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 30,
+        "planets": [
+            "Mellon",
+            "Zohbat"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 31,
+        "planets": [
+            "Lazar",
+            "Sakulag"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 32,
+        "planets": [
+            "Dal Bootha",
+            "Xxehan"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 33,
+        "planets": [
+            "Corneeq",
+            "Resculon"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 34,
+        "planets": [
+            "Centauri",
+            "Gral"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 35,
+        "planets": [
+            "Bereg",
+            "Lirta IV"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 36,
+        "planets": [
+            "Arnor",
+            "Lor"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 37,
+        "planets": [
+            "Arinam",
+            "Meer"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 38,
+        "planets": [
+            "Abyz",
+            "Fria"
+        ],
+        "color": "blue"
+    },
+    {
+        "id": 39,
+        "anomalies": [
+            "Wormhole A"
+        ],
+        "color": "red"
+    },
+    {
+        "id": 40,
+        "anomalies": [
+            "Wormhole B"
+        ],
+        "color": "red"
+    },
+    {
+        "id": 41,
+        "anomalies": [
+            "Gravity Rift"
+        ],
+        "color": "red"
+    },
+    {
+        "id": 42,
+        "anomalies": [
+            "Nebula"
+        ],
+        "color": "red"
+    },
+    {
+        "id": 43,
+        "anomalies": [
+            "Supernova"
+        ],
+        "color": "red"
+    },
+    {
+        "id": 44,
+        "anomalies": [
+            "Asteroid Field"
+        ],
+        "color": "red"
+    },
+    {
+        "id": 45,
+        "anomalies": [
+            "Asteroid Field"
+        ],
+        "color": "red"
+    },
+    {
+        "id": 46,
+        "color": "red"
+    },
+    {
+        "id": 47,
+        "color": "red"
+    },
+    {
+        "id": 48,
+        "color": "red"
+    },
+    {
+        "id": 49,
+        "color": "red"
+    },
+    {
+        "id": 50,
+        "color": "red"
+    }
+]

@@ -3,13 +3,14 @@
 import csv
 from dataclasses import dataclass
 from functools import total_ordering
-import logging
 import pathlib
 import json
 import random
 
-LOG = logging.getLogger(__name__)
-LOG.setLevel(logging.DEBUG)
+from . import logging
+
+LOG = logging.get_logger(__name__)
+LOG.setLevel("DEBUG")
 
 CONFIG_PATH = pathlib.Path("config")
 
@@ -233,7 +234,7 @@ def rebalance_slices(slices):
     slices.sort()
     worst_slice, best_slice = slices[0], slices[-1]
     if best_slice.absolute_value >= 1.5 * worst_slice.absolute_value:
-        LOG.warn("Rebalancing between best and worst slice")
+        LOG.debug("Rebalancing between best and worst slice")
         best_tile = best_slice.remove_best_tile()
         worst_tile = worst_slice.remove_worst_tile(color=best_tile.color)
 
@@ -256,7 +257,7 @@ def rebalance_slices(slices):
             >= 2 * most_resources_heavy_slice.influence
         )
     ):
-        LOG.warn("Rebalancing due to unbalanced res/inf ratio in slice")
+        LOG.debug("Rebalancing due to unbalanced res/inf ratio in slice")
         best_inf_tile = most_influence_heavy_slice.remove_excessive_tile()
         best_res_tile = most_resources_heavy_slice.remove_excessive_tile()
 
@@ -296,7 +297,7 @@ def prepare_slices():
         success = check_slice_balance(slices)
         if success:
             break
-        LOG.warn("Rebalacing slices")
+        LOG.debug("Rebalacing slices")
         slices = rebalance_slices(slices)
 
     for slice_ in slices:

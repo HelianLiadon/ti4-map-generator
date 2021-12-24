@@ -4,7 +4,6 @@ import csv
 from dataclasses import dataclass
 from functools import total_ordering
 import logging
-import math
 import pathlib
 import json
 import random
@@ -189,15 +188,6 @@ def draw_all_tiles(tiles: list[Tile], players: int = 6):
             break
 
     return tiles
-
-
-def compute_absolute_value(values):
-    total = 0
-    total += math.sqrt(values['resources'])
-    total += math.sqrt(values['influence'])
-    total += 2 * len(values['technology'])
-    total += len(values['wormholes'])
-    return total
 
 
 def generate_slices(tiles: list[Tile], k: int = 6) -> list[Slice]:
